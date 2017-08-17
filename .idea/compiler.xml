@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="apimodels" />
+        <module name="wirecash-api-client" />
+        <module name="wirecash-api-models" />
+        <module name="wirecash-api-sdk" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="apimodels" target="1.8" />
+      <module name="wirecash-api-client" target="1.8" />
+      <module name="wirecash-api-models" target="1.8" />
+      <module name="wirecash-api-sdk" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
