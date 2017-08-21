@@ -6,7 +6,7 @@
 
     <groupId>com.wirecash</groupId>
     <artifactId>api-client</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <packaging>jar</packaging>
 
     <name>${project.groupId}:${project.artifactId}</name>
@@ -138,7 +138,7 @@
         <dependency>
             <groupId>com.wirecash</groupId>
             <artifactId>api-models</artifactId>
-            <version>1.0.0</version>
+            <version>1.1.0</version>
         </dependency>
 
         <!-- Test Deps -->
