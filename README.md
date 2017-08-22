@@ -10,6 +10,14 @@ the hood. You may want to take a look at those libraries if you need to do anyth
 
 ### Basic Usage
 
+```xml
+<dependency>
+    <groupId>com.wirecash</groupId>
+    <artifactId>api-client</artifactId>
+    <version>1.1.0</version>
+</dependency>
+```
+
 ```java
 
 // Use builder to create a client 
