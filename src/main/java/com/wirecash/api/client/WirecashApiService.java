@@ -39,10 +39,10 @@ public interface WirecashApiService {
     Call<CompaniesResponse> getServicesByState(@Path("state_code") String state_code, @Query("amount") Double amount, @Header("Authorization") String access_token);
 
     @GET("state/{state_code}/country/{country_code}")
-    Call<CompaniesResponse> getCompany(@Path("state_code") String state_code, @Path("country_code") String country_code, @Header("Authorization") String access_token);
+    Call<CompaniesResponse> getServicesByStateCountry(@Path("state_code") String state_code, @Path("country_code") String country_code, @Header("Authorization") String access_token);
 
     @GET("state/{state_code}/country/{country_code}")
-    Call<CompaniesResponse> getCompany(@Path("state_code") String state_code, @Path("country_code") String country_code, @Query("amount") Double amount, @Header("Authorization") String access_token);
+    Call<CompaniesResponse> getServicesByStateCountry(@Path("state_code") String state_code, @Path("country_code") String country_code, @Query("amount") Double amount, @Header("Authorization") String access_token);
 
     @GET("state/list")
     Call<StateListResponse> getStateList(@Header("Authorization") String access_token);
