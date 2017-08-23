@@ -14,7 +14,7 @@ the hood. You may want to take a look at those libraries if you need to do anyth
 <dependency>
     <groupId>com.wirecash</groupId>
     <artifactId>api-client</artifactId>
-    <version>1.1.0</version>
+    <version>1.1.1</version>
 </dependency>
 ```
 
