@@ -3,10 +3,7 @@ package com.wirecash.api.client;
 import com.wirecash.api.models.Request.AuthenticateRequest;
 import com.wirecash.api.models.Request.QuoteRequest;
 import com.wirecash.api.models.Request.RefreshTokenRequest;
-import com.wirecash.api.models.Responses.AuthenticateResponse;
-import com.wirecash.api.models.Responses.CompaniesResponse;
-import com.wirecash.api.models.Responses.CountryListResponse;
-import com.wirecash.api.models.Responses.StateListResponse;
+import com.wirecash.api.models.Responses.*;
 import retrofit2.Call;
 import retrofit2.http.*;
 
@@ -48,5 +45,5 @@ public interface WirecashApiService {
     Call<StateListResponse> getStateList(@Header("Authorization") String access_token);
 
     @POST("quote")
-    Call<QuoteRequest> getQuote(@Body QuoteRequest quoteRequest, @Header("Authorization") String access_token);
+    Call<QuoteResponse> getQuote(@Body QuoteRequest quoteRequest, @Header("Authorization") String access_token);
 }
